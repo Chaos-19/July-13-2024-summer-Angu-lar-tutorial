@@ -1,27 +1,63 @@
-# GettingStarted
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0.
+# House Location Searching Application
 
-## Development server
+## Overview
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This project is a simple house location searching application built using Angular 18. It was developed as part of a two-week intensive learning period to grasp basic Angular concepts. The application allows users to search for houses, view details including price, and submit information about new houses.
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Homepage**: Displays a list of houses with their prices.
+- **Search Functionality**: Allows users to search for houses by location or other criteria.
+- **Form Submission**: Users can submit information about new houses, including price and location.
+- **Responsive Design**: Optimized for various screen sizes and devices.
+- **Dark Mode**: Toggle for a dark mode theme.
 
-## Build
+## Technologies Used
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Angular 18
+- HTML5
+- CSS3
+- TypeScript
+	
+## Concepts Covered
 
-## Running unit tests
+- **Services**: Implemented to manage data and business logic.
+- **Components**: Developed various components to structure the application.
+- **Data Binding**: Utilized both event binding and attribute binding.
+- **Parent-Child Communication**: Passed data from parent to child components and invoked parent functions from child components.
+- **Routing**: Configured routes to navigate between different views.
+- **HTTP Calls**: Made HTTP calls to fetch and submit data.
+- **Directives**: Used directives to manipulate the DOM.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Installation
 
-## Running end-to-end tests
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/house-location-search.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd house-location-search
+   ```
+3. Install the dependencies:
+   ```sh
+   npm install
+   ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Usage
 
-## Further help
+1. Start the development server:
+   ```sh
+   ng serve
+   ```
+2. Open your browser and navigate to `http://localhost:4200/`.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or bug fixes.
+
+## License
+
+This project is licensed under the MIT License.
+
